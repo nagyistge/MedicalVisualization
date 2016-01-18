@@ -5,7 +5,9 @@
 
 int main(int argc, char ** argv)
 {
-	gg::GraphicsApp app(argc, argv);
-	app.run();
-	return 0;
+	gg::GraphicsApp medicalVisualization(argc, argv);
+	medicalVisualization.readData("head");
+
+	medicalVisualization.runApp();
+	return EXIT_SUCCESS;
 }

@@ -8,5 +8,5 @@ include_directories(inc)
 add_executable(DataReader ${CPP_SOURCE} ${CPP_HEADER})
 
 #link_directories(lib/${CMAKE_BUILD_TYPE})
-target_link_libraries(DataReader debug freeglutd.lib)
-target_link_libraries(DataReader optimized freeglut.lib)
+target_link_libraries(DataReader debug freeglutd.lib debug glew32d.lib)
+target_link_libraries(DataReader optimized freeglut.lib optimized glew32.lib)

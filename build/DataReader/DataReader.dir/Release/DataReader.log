@@ -1,0 +1,17 @@
+﻿Build started 10/13/2015 07:42:45.
+     1>Project "E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\DataReader\DataReader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IE:\Users\Gustavo\Documents\GitHub\MedicalVisualization\DataReader\inc /nologo /W3 /WX- /MP8 /O2 /Ob2 /D NDEBUG /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"DataReader.dir\Release\\" /Fd"DataReader.dir\Release\vc140.pdb" /Gd /TP /errorReport:prompt E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\DataReader\src\LightRenderingEngine.cpp
+         LightRenderingEngine.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\DataReader\Release\DataReader.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib freeglut.lib glew32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:/Users/Gustavo/Documents/GitHub/MedicalVisualization/build/DataReader/Release/DataReader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Users/Gustavo/Documents/GitHub/MedicalVisualization/build/DataReader/Release/DataReader.lib" /MACHINE:X64  /machine:x64 DataReader.dir\Release\LightRenderingEngine.obj
+         DataReader.dir\Release\Main.obj
+         DataReader.vcxproj -> E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\DataReader\Release\DataReader.exe
+     1>Done Building Project "E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\DataReader\DataReader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

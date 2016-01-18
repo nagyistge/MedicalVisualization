@@ -1,0 +1,11 @@
+﻿Build started 10/13/2015 01:17:39.
+     1>Project "E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/Users/Gustavo/Documents/GitHub/MedicalVisualization/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/Users/Gustavo/Documents/GitHub/MedicalVisualization/build/DataReader/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "E:\Users\Gustavo\Documents\GitHub\MedicalVisualization\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
